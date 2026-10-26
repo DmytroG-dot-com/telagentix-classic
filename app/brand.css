@@ -1,0 +1,26 @@
+/* Brand palette drawn from Telagentix's main site. */
+:root {
+  --background: #ffffff;
+  --foreground: #141414;
+  --primary: #141414;
+  --secondary: #eef7f8;
+  --muted: #59666a;
+  --border: #c8d5d7;
+  --accent: #00b8c6;
+  --accent-deep: #087f8a;
+  --card: #ffffff;
+  --deep: #0b171b;
+  --deep-2: #14363c;
+  --button-ink: #071c20;
+}
+
+.dark,
+body:has(.theme-toggle-input:checked) {
+  --background: #0b171b;
+  --foreground: #f8fafd;
+  --primary: #141414;
+  --secondary: #14363c;
+  --muted: #b8c4d4;
+  --border: #14363c;
+  --card: #14363c;
+}
