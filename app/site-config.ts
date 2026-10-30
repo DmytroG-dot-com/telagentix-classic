@@ -40,7 +40,7 @@ export const siteConfig: SiteConfig = {
   siteUrl: `https://${domain}`,
   servicesUrl: `https://services.${domain}`,
   email: `contact@info.${domain}`,
-  phone: { display: "", href: "" },
+  phone: { display: "+1 570-569-0900", href: "tel:+15705690900" },
   bookingEmbedUrl: "https://api.leadconnectorhq.com/widget/booking/EhqwyUKUvrP1s80KDL3t",
   tagline: "Moving AI from theory to infrastructure.",
   logo: {
